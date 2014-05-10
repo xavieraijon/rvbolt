@@ -1,0 +1,2 @@
+// Gumby is ready to go
+Gumby.ready(function(){Gumby.log("Gumby is ready to go...",Gumby.dump());(Gumby.isOldie||Gumby.$dom.find("html").hasClass("ie9"))&&$("input, textarea").placeholder();$("#skip-switch").on("gumby.onComplete",function(){$(this).trigger("gumby.trigger")})}).oldie(function(){Gumby.warn("This is an oldie browser...")}).touch(function(){Gumby.log("This is a touch enabled device...")});$("#main-nav").on("gumby.onFixed",function(e){$("blockquote").css({"margin-top":"95px"})}).on("gumby.onUnfixed",function(e){$("blockquote").css({"margin-top":"0"})});

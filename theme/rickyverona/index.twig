@@ -1,0 +1,91 @@
+{% include '_header.twig' %}
+    {% setcontent home = "page/1" %}
+    <div class="parallax" gumby-parallax="0.5" gumby-offset="400" id="home" data-target="home">
+        <div class="top-wrap">
+            <div class="row">
+                <div class="logo">
+                    {# <img src="{{ paths.root }}theme/rickyverona/img/rickyverona_logo@2x.png" alt=""> #}
+                    <img src="{{ image(home.image) }}">
+                </div>
+            </div>
+        </div>
+
+        <!-- Navigation Bar -->
+        {% include '_nav.twig' %}
+
+        <div class="row">
+            <div class="content first">
+                <blockquote>{{ home.cita }}</blockquote>
+            </div>
+        </div>
+    </div>
+    <div class="parallax" gumby-parallax=".4" gumby-offset="100" id="salon" data-target="salon">
+        <div class="row">
+            <div class="four columns content text-center">
+                <h1>{{ home.titulo_salon }}</h1>
+                <div class="content-box text-left">
+                    <div class="scroll-content">
+                        {{ home.texto_salon }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="parallax" gumby-parallax=".4" gumby-offset="100" id="tendencias" data-target="tendencias">
+        <div class="row">
+            <div class="content">
+                <h1 class="white">{{ home.titulo_tendencias }}</h1>
+                <div class="content-box">
+                    <div class="scroll-content">
+                        {{ home.texto_tendencias }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="parallax" gumby-parallax=".4" gumby-offset="100" id="productos" data-target="productos">
+        <div class="row">
+            <div class="content">
+                <h1>{{ home.titulo_productos }}</h1>
+                <div class="content-box">
+                    <div class="scroll-content">
+                        {{ home.texto_productos }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="parallax" gumby-parallax=".4" gumby-offset="100" id="contactar" data-target="contactar">
+        <div class="row">
+            <div class="content">
+                <h1 class="text-white">{{ home.titulo_contactar }}</h1>            
+                <div class="content-box">
+                    <div class="row">
+                        <div class="six columns">
+                            <ul>
+                                <li><strong>{{ home.telefono }}</strong>&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:{{ home.email }}">{{ home.email }}</a></li>
+                                <li>{{ home.direccion }} {{ home.ciudad }}</li>
+                            </ul>
+                            <form action="" class="mb0">
+                                <ul class="row metro">
+                                    <li class="field"><input type="text" name="name" class="input" placeholder="Nombre y Apellidos..."></li>
+                                    <li class="field"><input type="email" name="email" class="input" placeholder="Email..."></li>
+                                    <li class="field"><input type="text" name="phone" class="input" placeholder="Teléfono..."></li>
+                                    <li class="field"><textarea name="comments" class="input textarea" placeholder="Comentarios..."></textarea></li>
+                                    <li class="field">
+                                        <div class="right medium danger btn">
+                                            <button type="submit">ENVIAR</button>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </form>
+                        </div>
+                        <div class="six columns">
+                            <img width="100%" height="100%" src="http://maps.googleapis.com/maps/api/staticmap?center={{ home.mapa_contactar.latitude }},{{ home.mapa_contactar.longitude }}&zoom=15&size=430x350&sensor=false&markers={{ home.mapa_contactar.latitude }},{{ home.mapa_contactar.longitude }}">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% include '_footer.twig' %}

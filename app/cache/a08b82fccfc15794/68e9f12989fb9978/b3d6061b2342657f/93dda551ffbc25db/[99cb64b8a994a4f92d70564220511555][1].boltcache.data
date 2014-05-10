@@ -1,0 +1,65 @@
+1391849446
+s:7387:"<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Bolt - Fatal error.</title>
+    <link rel="stylesheet" type="text/css" href="/rv-bolt/app/view/css/bootstrap.min.css" />
+</head>
+<body style="padding: 20px;">
+
+    <div style="max-width: 530px; margin: auto;">
+
+    <h1>Bolt - Error fatal</h1>
+
+    <ul>
+        <li>Class: Symfony\Component\HttpKernel\Exception\NotFoundHttpException</li>
+        <li>Message: The page could not be found, and there is no &#039;notfound&#039; set in &#039;config.yml&#039;. Sorry about that.</li>
+        <li>Code: 0</li>
+    </ul>
+
+                                                                                <p>
+                    <strong>Symfony\Component\EventDispatcher\EventDispatcher-&gt;doDispatch()</strong><br>
+                    <em>[root]/vendor/symfony/event-dispatcher/Symfony/Component/EventDispatcher/EventDispatcher.php, line 53</em>
+                                    </p>
+                                                <p>
+                    <strong>Symfony\Component\EventDispatcher\EventDispatcher-&gt;dispatch()</strong><br>
+                    <em>[root]/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php, line 107</em>
+                                    </p>
+                                                <p>
+                    <strong>Symfony\Component\HttpKernel\HttpKernel-&gt;handleRaw()</strong><br>
+                    <em>[root]/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php, line 66</em>
+                                    </p>
+                                                <p>
+                    <strong>Symfony\Component\HttpKernel\HttpKernel-&gt;handle()</strong><br>
+                    <em>[root]/vendor/silex/silex/src/Silex/Application.php, line 516</em>
+                                    </p>
+                                                <p>
+                    <strong>Silex\Application-&gt;handle()</strong><br>
+                    <em>[root]/vendor/silex/silex/src/Silex/Application.php, line 493</em>
+                                    </p>
+                                                <p>
+                    <strong>Silex\Application-&gt;run()</strong><br>
+                    <em>[root]/index.php, line 27</em>
+                                            <div class="krumo-root">
+	<ul class="krumo-node krumo-first">
+<li class="krumo-child"><div class="krumo-element "onMouseOver="krumo.over(this);" onMouseOut="krumo.out(this);"><a class="krumo-name">…</a> <em class="krumo-type">Array(<strong class="krumo-array-length">0</strong>)</em></div></li></ul></div>
+<!-- Krumo - HTML -->
+
+<!-- Using Krumo Skin: "stylish" skins/stylish/skin.css -->
+<style type="text/css">
+ul.krumo-node,#content ul.krumo-node li{margin:0;padding:0}ul.krumo-node ul{padding-left:18px}div.krumo-root{border:solid 1px #E8E8E8;border-radius:3px;padding:4px;margin:.5em 0;background-color:#F8F8F8}div.krumo-root *{font:13px/16px "Helvetica Neue",Helvetica,Verdana,Arial,sans-serif;font-weight:400;padding:0;margin:0;color:#666}li.krumo-child{display:block;list-style:none;overflow:hidden}ul.krumo-node ul li.krumo-child{background:rgba(0,0,0,.03)}div.krumo-element{cursor:default;line-height:22px;display:block;clear:both;white-space:nowrap;background-repeat:no-repeat;background-position:6px 8px;padding-left:18px}a.krumo-name{color:#284F76;font-weight:700;text-decoration:none}a.krumo-name big{font:700 20pt Georgia;line-height:14px;position:relative;top:2px;left:-2px}ul.krumo-node div.krumo-expand{background-image:url(data:image/gif;base64,R0lGODlhCQAJALMAAP///wAAAP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAAAALAAAAAAJAAkAAAQTEIAna33USpwt79vncRpZgpcGRAA7);cursor:pointer}ul.krumo-node div.krumo-opened{background-image:url(data:image/gif;base64,R0lGODlhCQAJALMAAP///wAAAP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAAAALAAAAAAJAAkAAAQQEMhJ63w4Z6C37JUXWmQJRAA7)}ul.krumo-node ul div.krumo-expand{border-left:2px solid #CCC}ul.krumo-node ul div.krumo-opened,ul.krumo-node ul div.krumo-opened~div{border-left:2px solid #CCC}div.krumo-preview{font:12px/16px Menlo,Consolas,Inconsolata,"Andale Mono","Courier New",monospace;font-weight:400;color:#333;padding:5px;background:#F8F8F8;overflow:auto;word-break:break-all}ul.krumo-node ul div.krumo-expand.krumo-hover,ul.krumo-node ul div.krumo-hover~div{border-left:2px solid #888;background-color:rgba(88,139,255,.05)!important}li.krumo-footnote{background:#fff;padding:2px 5px;list-style:none;border-top:solid 1px #bebebe;margin-top:2px;cursor:default}* html li.krumo-footnote{line-height:13px}.krumo-version{float:right}strong.krumo-version-number{font-family:"Helvetica Neue",Helvetica,Verdana,Arial,sans-serif;font-weight:700;font-size:11px;margin:0;padding:0;color:#366D6D;display:inline;margin-right:3px}li.krumo-footnote a{font-family:"Helvetica Neue",Helvetica,Verdana,Arial,sans-serif;font-weight:700;font-size:10px;color:#434343;text-decoration:none}li.krumo-footnote a:hover{color:#000}li.krumo-footnote span.krumo-call{font-family:"Helvetica Neue",Helvetica,Verdana,Arial,sans-serif;font-weight:400;font-size:11px;position:relative;top:1px}li.krumo-footnote span.krumo-call code{font-weight:700}div.krumo-title{font-family:"Helvetica Neue",Helvetica,Verdana,Arial,sans-serif;font-weight:400;font-size:11px;cursor:default}strong.krumo-array-length,strong.krumo-string-length,em.krumo-type{font-style:italic}strong.krumo-string,strong.krumo-integer{color:#000}strong.krumo-boolean,strong.krumo-null{font:13px/16px Menlo,Consolas,Inconsolata,"Andale Mono","Courier New",monospace;font-weight:700;color:#700}strong.krumo-datetime,strong.krumo-sorted{font-family:"Helvetica Neue",Helvetica,Verdana,Arial,sans-serif;font-weight:700;color:#700}strong.krumo-class{color:#000;font-weight:700}
+</style>
+<!-- Krumo - CSS -->
+<script type="text/javascript">
+function krumo(){}function toggle_expand_all(){var e=krumo.find(".krumo-expand");if(0===e.length)return!1;var t="expand";("block"===e[0].nextSibling.style.display||""===e[0].nextSibling.style.display)&&(t="collapse");for(var i in e){var n=e[i],s=n.nextSibling;"expand"===t?(s.style.display="block",krumo.reclass(n,"krumo-opened")):(s.style.display="none",krumo.unclass(n,"krumo-opened"))}}krumo.reclass=function(e,t){e.className.indexOf(t)<0&&(e.className+=" "+t)},krumo.unclass=function(e,t){e.className.indexOf(t)>-1&&(e.className=e.className.replace(t,""))},krumo.toggle=function(e){for(var t=e.parentNode.getElementsByTagName("ul"),i=0;i<t.length;i++)t[i].parentNode.parentNode==e.parentNode&&(t[i].parentNode.style.display="none"==t[i].parentNode.style.display?"block":"none");"block"==t[0].parentNode.style.display?krumo.reclass(e,"krumo-opened"):krumo.unclass(e,"krumo-opened")},krumo.over=function(e){krumo.reclass(e,"krumo-hover")},krumo.out=function(e){krumo.unclass(e,"krumo-hover")},krumo.get_id=function(e){var t=document.getElementById(e);return t},krumo.get_class=function(e){var t=document.getElementsByClassName(e),i=new Array;for(var n in t){var s=t[n];"object"==typeof s&&i.push(s)}return i},krumo.find=function(e){if(!e)return!1;var t=e.substr(0,1),i=e.substr(1);return"."===t?krumo.get_class(i):"#"===t?krumo.get_id(i):!1};</script>
+<!-- Krumo - JavaScript -->
+
+                                    </p>
+                        
+    </div>
+    <hr>
+
+</body>
+</html>
+";

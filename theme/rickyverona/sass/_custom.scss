@@ -1,0 +1,104 @@
+$red: #b01922;
+$red-rgba: rgba(176,25,34,0.3);
+
+.mt0 { margin-top: 0; }
+.mr0 { margin-right: 0; }
+.mb0 { margin-bottom: 0; }
+.ml0 { margin-left: 0; }
+
+.pt0 { padding-top: 0; }
+.pr0 { padding-right: 0; }
+.pb0 { padding-bottom: 0; }
+.pl0 { padding-left: 0; }
+
+.text-white { color: #fff; }
+
+h1 {
+    @include font-size(86);
+    color: #fff;
+    text-shadow: 0 1px 10px rgba(0,0,0,0.6);
+    border-left: 10px solid $red;
+    padding: 0 0 0 30px;
+    margin-top: 30px;
+}
+
+.top-wrap {
+}
+
+.logo {
+    padding: 75px 0;
+}
+
+#main-nav {
+    background: rgba(0,0,0,0.7);
+    ul {
+        li {
+            height: 75px;
+        }
+    }
+    .skiplink {
+        background: none;
+    }
+    a {
+        @include font-size(20);
+        height: 75px;
+        line-height: 75px;
+        &:hover {
+            background: $red-rgba;
+        }
+    }
+}
+
+.parallax {
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 0 20px rgba(0,0,0,0.8);
+
+    &#home {
+        background: url(../img/home_girl.jpg);
+    }
+    &#salon {
+        background: url(../img/salon.jpg);
+    }
+    &#tendencias {
+        background: url(../img/tendencias_girl.jpg);
+    }
+    &#productos {
+        background: url(../img/productos.jpg);
+    }
+    &#contactar {
+        background: url(../img/barcelona.jpg);
+    }
+}
+
+.content {
+    &.first {
+        padding: 150px 0 300px 350px;
+    }
+    padding: 160px 0 350px 0;
+    color: #fff;
+}
+
+blockquote {
+    border: none;
+    color: #fff;
+    @include font-size(22);
+    line-height: 28px;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.8);
+}
+
+.content-box {
+    position: relative;
+    margin-top: 30px;
+    width: 100%;
+    height: 400px;
+    padding: 20px 30px;
+    background-color: rgba(0,0,0,0.7);
+    @include border-radius(15px 0 15px 0);
+    // @include box-shadow(0 0 0 10px rgba(255,255,255,0.2));
+}
+
+.scroll-content {
+    overflow: auto;
+    max-height: 360px;
+}
